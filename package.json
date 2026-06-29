@@ -1,0 +1,14 @@
+{
+  "name": "arkade-stealth",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Silent payments for Arkade VTXOs: reusable address, per-payment unlinkability, opt-in compliance view key.",
+  "scripts": {
+    "test": "bun run demo.test.ts"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.4.0",
+    "@noble/secp256k1": "^2.1.0"
+  }
+}
